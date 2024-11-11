@@ -18,8 +18,8 @@ const Detailed = () => {
   return (
     <div className="px-4 ">
       <div>
-        <h2 className="text-[15px] font-medium my-10">Goal: {data.title}</h2>
-        <p className="text-[12px] mb-20 ">Description: {data.description}</p>
+        <h2 className="text-[17px] font-medium my-10">Goal: {data.title}</h2>
+        <p className="text-[13px] mb-20 ">Description: {data.description}</p>
         <p className="font-medium">Status: {data.status}</p>
       </div>
     </div>
