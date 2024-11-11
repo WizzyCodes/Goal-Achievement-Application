@@ -8,6 +8,7 @@ import {
 import {
   createGoal,
   getAllGoals,
+  getOneGoalData,
   updateOneGoalStatus,
 } from "../controller/goalController";
 
@@ -22,6 +23,7 @@ router.route("/login-user").post(loginUser);
 // goal endpoints
 
 router.route("/update-goal-status/:goalID").patch(updateOneGoalStatus);
+router.route("/read-one-goal/:goalID").get(getOneGoalData);
 router.route("/create-goal").post(createGoal);
 router.route("/get-all-goal").get(getAllGoals);
 

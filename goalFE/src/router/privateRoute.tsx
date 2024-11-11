@@ -32,17 +32,3 @@ const PublicRoute: FC<any> = ({ children }) => {
 };
 
 export { PrivateRoute, PublicRoute };
-
-// import { GlobalContext } from "@/global/globalProvider";
-// import { FC, useContext } from "react";
-// import { Navigate } from "react-router-dom";
-
-// const PrivateRoute: FC<any> = ({ children }) => {
-//   const { user }: any = useContext(GlobalContext);
-
-//   const data = JSON.parse(localStorage.getItem("auth")!);
-
-//  ;
-// };
-
-// export default PrivateRoute;

@@ -4,6 +4,7 @@ interface iGoal {
   title: string;
   duration: string;
   status: string;
+  description: string;
 }
 
 interface iGoalData extends iGoal, Document {}
@@ -14,6 +15,9 @@ const goalModel = new Schema(
       type: String,
     },
     duration: {
+      type: String,
+    },
+    description: {
       type: String,
     },
     status: {
